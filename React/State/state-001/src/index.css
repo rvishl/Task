@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.App-header {
+  position: fixed;
+  width: 20rem;
+  padding: 0.5rem;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.body-container {
+  margin: 70px 0px 0px 0px;
+  /* padding: 0.5rem; */
+  flex-wrap: wrap;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #cccccc;
+}
+button {
+  border: none;
+  background-color: #d63267;
+  color: white;
+  border-radius: 5px;
+  padding: 0.2rem;
+}
+.body-container h2 {
+  color: #d63267;
+}

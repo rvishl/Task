@@ -15,7 +15,7 @@ function App() {
     },
     {  
       color:"#000000",name:"BLACK"
-    },
+    }, 
     {  
       color:"#38BB14",name:"GREEN"
     },
