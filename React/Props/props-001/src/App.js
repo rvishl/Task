@@ -45,7 +45,7 @@ function App() {
     <div>
       {colorcode.map((element, idx1) =>{
         return(
-            <Card color={element.color} key={idx1} name={element.name}/>  
+          <Card color={element.color} key={idx1} name={element.name}/>  
         )
       })}
     </div>
